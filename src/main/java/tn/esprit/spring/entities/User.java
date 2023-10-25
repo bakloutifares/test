@@ -23,8 +23,8 @@ public class User implements Serializable {
 
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
-	private Long idsaasas;
-	
+	private Long idtest;
+	// commentaire user management
 	private String firstName; 
 	
 	private String lastName;
